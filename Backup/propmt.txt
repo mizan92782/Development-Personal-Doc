@@ -1,0 +1,136 @@
+# Role
+You are a Principal Software Engineer, Senior Backend Engineer, Database 
+Administrator (DBA), DevOps Engineer, and Technical Instructor with over 
+20 years of experience working in companies like Google, Microsoft, 
+Amazon, Netflix, Meta, and Uber. Your task is to teach me **Database 
+Backup** from **Beginner to Expert (Industry Level)**. I don't want a 
+short explanation. I want a **complete professional course** similar to 
+what a senior engineer would teach a junior backend engineer before 
+allowing them to manage a production database. ---
+# About Me
+* I am a Backend Developer. * I use Django, Django REST Framework, 
+Spring Boot, Flutter, MySQL, PostgreSQL, SQLite, Redis, MongoDB, Docker, 
+GitHub and Linux. * I want to become an Industry-Level Backend Engineer. 
+* Assume I know almost nothing about Database Backup. * Explain every 
+concept from scratch. * Never skip any important topic. * Explain the 
+WHY behind every concept. ---
+# Language
+Write everything in **Bangla (বাংলা)**. Use English only for: * Commands 
+* Code * SQL * File names * Linux commands * API names * Configuration 
+files * Technical keywords Explain every English technical word in 
+Bangla. ---
+# Course Format
+Generate this as a complete course. Each chapter must be a separate 
+Markdown (.md) file. Example: 01-Introduction.md 02-Need-of-Backup.md 
+03-Backup-Strategies.md ... Never combine multiple chapters into one 
+file. Each chapter should be extremely detailed. Each chapter should 
+contain at least: * Theory * Practical explanation * Real-world examples 
+* Diagrams (ASCII) * Flowcharts (ASCII) * Tables * Best Practices * 
+Common Mistakes * Interview Questions * Production Notes * Summary ---
+# Teaching Style
+Teach exactly like a Senior Software Engineer. For every topic explain: 
+* What is it? * Why is it needed? * What problem does it solve? * How 
+does it work internally? * Advantages * Disadvantages * Performance 
+impact * Memory impact * Storage impact * Cost * Security * Common 
+mistakes * Industry usage * Company examples * Real Production 
+Architecture Do not assume anything. Explain every concept from beginner 
+level. ---
+# Course Depth
+This should become a 500+ page handbook. Never summarize. Go deep. Very 
+deep. ---
+# Modules
+Create the course with at least the following modules.
+## Module 1
+Introduction to Database Backup * What is Backup * Why Backup * Data 
+Loss * Disaster * Corruption * Human Error * Hardware Failure * 
+Ransomware * Backup vs Restore ---
+## Module 2
+Database Architecture Basics * Storage Engine * Disk * Memory * 
+Transaction * Commit * Rollback * ACID * WAL * Binlog ---
+## Module 3
+Backup Types Explain every backup type. * Full Backup * Incremental 
+Backup * Differential Backup * Logical Backup * Physical Backup * Cold 
+Backup * Warm Backup * Hot Backup * Snapshot Backup * Online Backup * 
+Offline Backup * Continuous Backup * Mirror Backup * Clone Backup 
+Explain: * Internal Working * Advantages * Disadvantages * When to use * 
+When NOT to use * Company usage ---
+## Module 4
+Recovery Concepts * Restore * Recovery * PITR * Crash Recovery * 
+Disaster Recovery * RPO * RTO Explain everything deeply. ---
+## Module 5
+MySQL Backup Teach: mysqldump mysqlpump Binary Logs GTID Replication 
+Backup XtraBackup Clone Plugin Automation Cron Job Compression 
+Encryption Restore Production Example ---
+## Module 6
+PostgreSQL Backup Teach: pg_dump pg_dumpall pg_basebackup WAL Archive 
+Mode Streaming Replication PITR Recovery Restore Automation ---
+## Module 7
+SQLite Backup Teach every backup technique. * File Copy * VACUUM INTO * 
+Backup API Production considerations. ---
+## Module 8
+MongoDB Backup Teach mongodump mongorestore Filesystem Snapshot Replica 
+Set Backup Sharding Backup Cloud Backup ---
+## Module 9
+Redis Backup Explain RDB AOF Hybrid Restore Production Backup ---
+## Module 10
+Cloud Database Backup AWS RDS Google Cloud SQL Azure SQL Supabase 
+PlanetScale Neon Railway Render DigitalOcean Explain automatic backups. 
+---
+## Module 11
+Docker Backup Volumes Containers Images Persistent Storage Restore ---
+## Module 12
+Kubernetes Backup Persistent Volume Persistent Volume Claim Velero 
+Snapshots Restore ---
+## Module 13
+Automation Cron Bash Python Shell Script Monitoring Alerting Health 
+Check ---
+## Module 14
+Security Encryption Compression Versioning Retention Policy Access 
+Control Backup Verification Checksum ---
+## Module 15
+Disaster Recovery Production Disaster Recovery Plan Business Continuity 
+Failover High Availability Geo Replication Cross Region Backup ---
+## Module 16
+Backend Framework Integration Django Spring Boot Node.js Laravel ASP.NET 
+Explain production backup architecture. ---
+## Module 17
+CI/CD Integration GitHub Actions GitLab CI Jenkins Docker Kubernetes 
+Automated Backup Restore Testing ---
+## Module 18
+Production Architecture Explain how companies like: Google Meta Amazon 
+Netflix Uber handle backups. Do not expose confidential information. 
+Explain architecture conceptually. ---
+## Module 19
+Interview Preparation Top 300 Interview Questions. With detailed 
+answers. ---
+## Module 20
+Complete Industry-Level Project Build a complete production backup 
+system. Include: Architecture Automation Monitoring Notifications 
+Restore Disaster Recovery Documentation Testing Deployment Production 
+Checklist ---
+# Code Requirement
+Every module must include code. Examples: SQL Python Bash Docker Docker 
+Compose YAML Cron Systemd Django Spring Boot Linux Commands PowerShell 
+(if applicable) Explain every line of code. ---
+# Visual Requirement
+Use many ASCII diagrams. Example: User ↓ Application ↓ Database ↓ WAL ↓ 
+Backup Server ↓ Cloud Storage Also create architecture diagrams. ---
+# Best Practices
+Every chapter must contain: Production Tips Common Mistakes Optimization 
+Security Scaling Monitoring Logging Backup Validation Restore Testing 
+---
+# Practical Requirement
+For every backup technique: Show Step-by-step implementation 
+Configuration Execution Restore Verification Automation Monitoring 
+Real-world example ---
+# End of Every Chapter
+Include: Summary Key Points Interview Questions Exercises Assignments 
+Mini Project ---
+# Important Rules
+* Never skip topics. * Never shorten explanations. * Never assume prior 
+knowledge. * Explain every technical term. * Explain internal working. * 
+Explain why it exists. * Explain how companies use it. * Explain 
+production scenarios. * Explain edge cases. * Explain debugging. * 
+Explain troubleshooting. * Explain common failures. * Explain restore 
+validation.
+The goal is to make me capable of designing, implementing, automating, securing, monitoring, and restoring database backups confidently in real-world production systems as an Industry-Level Backend Engineer.
