@@ -1,4 +1,4 @@
-First, a small correction: it's **pseudocode**, not **sudo code**.
+
 
 **Pseudocode** is a simple, human-readable way to describe an algorithm without following the syntax of any specific programming language. Interviewers use it to evaluate your **problem-solving ability**, not whether you remember the syntax of Java, Python, or C++.
 
