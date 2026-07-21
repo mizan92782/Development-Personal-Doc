@@ -33,6 +33,55 @@ Internet → nginx/caddy → Application (Django)
               │                  Email     Telegram     Slack
 ```
 
+
+## How Promtail working
+```
+Application
+
+        │
+
+Write
+
+        │
+
+        ▼
+
+/logs/app.log
+
+        │
+
+Promtail watches
+
+        │
+
+        ▼
+
+Read new lines
+
+        │
+
+Add labels
+
+        │
+
+        ▼
+
+Loki
+
+        │
+
+        ▼
+
+Grafana
+
+        │
+
+Search
+
+{job="myapp"}
+
+```
+
 **সহজ কথায়:**
 - **Logs** যায় → Promtail → Loki → Grafana (দেখার জন্য)
 - **Metrics** যায় → Prometheus → Grafana (দেখার জন্য) + Alertmanager (alert পাঠানোর জন্য)
@@ -418,3 +467,13 @@ docker-compose up -d
 | Grafana | সব কিছুর visualization dashboard |
 
 এই পুরো setup টা একবার করে ফেললে তুমি একটা জায়গা থেকেই (Grafana) তোমার Django app-এর performance, error, resource usage, এবং raw logs — সব monitor করতে পারবে, আর সমস্যা হলে automatic notification পাবে।
+
+
+
+
+
+
+
+
+
+
